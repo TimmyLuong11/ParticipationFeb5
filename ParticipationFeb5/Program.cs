@@ -21,11 +21,11 @@ namespace ParticipationFeb5
 
             //Adding the user input and outputting to console
             sumTotal = val1 + val2 + val3;
-            Console.WriteLine("Sum Total: " + sumTotal);
+            Console.WriteLine("\nSum Total: " + sumTotal.ToString("N3"));
 
             //Multiplying the user input with a const and outputting to console
             multiTotal = sumTotal * number;
-            Console.WriteLine("Multiply Total: " + multiTotal);
+            Console.WriteLine("Multiply Total: " + multiTotal.ToString("N3"));
         }
     }
 }
